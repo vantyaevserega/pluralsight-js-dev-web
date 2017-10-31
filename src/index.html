@@ -2,10 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <script src="https://cdn.polyfill.io/v2/polyfill.js?features=fetch"></script>
     </head>
     <body>
-        <h1>Hello World</h1>
-        <p>test</p>
+        <h1>list of users:</h1>
+        <table>
+            <thead>
+                <th></th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </thead>
+            <tbody id="users">
+
+            </tbody>
+        </table>
         <script src="bundle.js"></script>
     </body>
 </html>
