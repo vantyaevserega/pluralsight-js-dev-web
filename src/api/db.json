@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 67342204,
+      "name": "Guadalupe",
+      "age": 22,
+      "email": "Warren.Quigley@hotmail.com"
+    },
+    {
+      "id": 63238586,
+      "name": "Kadin",
+      "age": 25,
+      "email": "Foster_Thiel@hotmail.com"
+    },
+    {
+      "id": 20641291,
+      "name": "Carolina",
+      "age": 26,
+      "email": "Edward45@gmail.com"
+    },
+    {
+      "id": 58856674,
+      "name": "Carolanne",
+      "age": 30,
+      "email": "Luigi52@gmail.com"
+    },
+    {
+      "id": 16191803,
+      "name": "Trent",
+      "age": 33,
+      "email": "Fabian59@gmail.com"
+    },
+    {
+      "id": 93383454,
+      "name": "Rudolph",
+      "age": 18,
+      "email": "Lizzie.Kihn@hotmail.com"
+    },
+    {
+      "id": 25569128,
+      "name": "Loren",
+      "age": 27,
+      "email": "Coty31@yahoo.com"
+    },
+    {
+      "id": 78314486,
+      "name": "Yessenia",
+      "age": 33,
+      "email": "Cyril.Flatley94@yahoo.com"
+    },
+    {
+      "id": 77661138,
+      "name": "Margarette",
+      "age": 35,
+      "email": "Robb50@yahoo.com"
+    }
+  ]
+}
