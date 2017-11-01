@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <script src="https://cdn.polyfill.io/v2/polyfill.js?features=fetch"></script>
-    </head>
-    <body>
-        <h1>list of users:</h1>
-        <table>
-            <thead>
-                <th></th>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Email</th>
-            </thead>
-            <tbody id="users">
 
-            </tbody>
-        </table>
-        <script src="bundle.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <% if(htmlWebpackPlugin.options.trackJsToken) { %>
+        <!-- BEGIN TRACKJS -->
+        <script type="text/javascript">
+            window._trackJs = { token: '<%=htmlWebpackPlugin.options.trackJsToken%>' };
+        </script>
+        <script type="text/javascript" src="https://cdn.trackjs.com/releases/current/tracker.js"></script>
+        <!-- END TRACKJS -->
+        <% } %>
+            <script src="https://cdn.polyfill.io/v2/polyfill.js?features=fetch"></script>
+</head>
+
+<body>
+    <h1>list of users:</h1>
+    <table>
+        <thead>
+            <th></th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </thead>
+        <tbody id="users">
+
+        </tbody>
+    </table>
+</body>
+
 </html>
