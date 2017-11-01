@@ -1,5 +1,5 @@
 import express from 'express';
-import path from'path';
+import path from 'path';
 import open from 'open';
 import webpack from 'webpack';
 import config from '../webpack.config.dev';
@@ -19,20 +19,11 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, '../src/index.html'));
 });
 
-app.get('/users', function(req,res){
-    res.json([
-        {'id': 1, 'name': 'Alex', 'age': 22, 'email': 'alex@yandex.ru'},
-        {'id': 2, 'name': 'Karl', 'age': 27, 'email': 'karl@yandex.ru'},
-        {'id': 3, 'name': 'Alfa', 'age': 24, 'email': 'vanta@yandex.ru'},
-    ]);
-});
-
-app.listen(port, function(err){
-    if(err)
-    {
-        console.log(err);        
+app.listen(port, function (err) {
+    if (err) {
+        console.log(err);
     }
-    else{
+    else {
         open('http://localhost:' + port);
     }
 }); 
